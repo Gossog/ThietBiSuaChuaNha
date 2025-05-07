@@ -37,9 +37,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
       itemsHTML += `
                 <div class="cart-item">
-                    <div class="item-image">
-                        <img src="${item.image}" alt="${item.name}">
-                    </div>
                     <div class="item-details">
                         <h3>${item.name}</h3>
                         <p class="item-price">${item.price.toLocaleString()}đ</p>
